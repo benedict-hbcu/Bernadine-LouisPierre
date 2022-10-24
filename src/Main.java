@@ -30,7 +30,7 @@ public class Main {
             while (B1.length() < 5) {
                 B1 = s.nextLine().toLowerCase();
             }
-            for (int i = 0; i < 5; i++) { //puts the inputWord into a char[]
+            for (int i = 0; i < 5; i++) { //this line puts the inputWord into a char[]
                 answer[i] = answerChoosen.charAt(i);
                 input[i] = B1.charAt(i);
             }
